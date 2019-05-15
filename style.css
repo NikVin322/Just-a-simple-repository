@@ -1,0 +1,89 @@
+/*TODO поменяй зеленый цвет на любой другой*/
+/*TODO поменяй толщину рамок*/
+/*TODO поменяй шрифт и его размеры*/
+body{
+	background-color: white;
+	color: black;
+}
+header{
+	background-color: #d1d1d1;
+	margin-left: 20%;
+	background-image: url('Untitled.png');
+	background-repeat:no-repeat;
+	height:189px;
+	border:solid 3px green;
+}
+header ul{
+	list-style-type:none;
+	overflow:hidden;
+}
+header li{
+	float: top;
+}
+header li a {	
+	background-color: #d1d1d1;
+	display: inline-block;
+	text-align: left;
+	overflow: visible;
+	padding:20px;
+	border:solid 3px green;
+	text-decoration:none;
+	color: black;
+	width: 20%;
+	
+}
+header h1{
+	text-align: center;
+	padding: 0.5cm;
+	letter-spacing:0.5cm;
+	font:Bold 40px Georgia;
+}
+footer{
+	background-color: #d1d1d1;
+	margin-left: 65%;
+	margin-top: 1%;
+	background-image: url('Untitled.png');
+	background-repeat:no-repeat;
+	height:190px;
+	border:solid 3px green;
+}
+nav ul{
+	list-style-type:none;
+	overflow:hidden;
+}
+nav li{
+	float: left top;
+}
+nav li a{
+	background-color: #d1d1d1;
+	display: inline-block;
+	text-align: left;
+	overflow: visible;
+	padding:20px;
+	border:solid 3px green;
+	text-decoration:none;
+	color: black;
+	width: 60%;
+}
+main{
+	background-color: #d1d1d1;
+	border:solid 3px green;
+	margin-left: 20%;
+	overflow: visible;
+	width: 50%;
+	padding: 5%;	
+}
+nav li a:hover{
+	text-decoration: underline;
+}
+main a{
+	color: black;
+	text-decoration: none;
+}
+main a:hover{
+	text-decoration: underline;
+}
+nav{
+	position: absolute;
+	top: 10px
+}
